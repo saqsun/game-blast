@@ -1,0 +1,10 @@
+{
+    "MarvinBitmap": {
+        "fontFamily": "Marvin",
+        "fontSize": 40
+    },
+    "MarvinBitmapBig": {
+        "fontFamily": "Marvin",
+        "fontSize": 240
+    }
+}

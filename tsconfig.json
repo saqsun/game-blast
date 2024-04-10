@@ -1,0 +1,38 @@
+{
+    "include": ["src", "typings", "bundler"],
+
+    "exclude": ["node_modules", "dist"],
+
+    "compilerOptions": {
+        "strict": true,
+        "skipLibCheck": true,
+
+        "baseUrl": ".",
+        "rootDirs": ["src"],
+        "outDir": "dist",
+
+        "target": "ESNext",
+        "module": "ESNext",
+        "lib": ["ESNext", "DOM"],
+
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+
+        "allowJs": true,
+        "resolveJsonModule": true,
+
+        "declaration": true,
+        "removeComments": true,
+        "noEmit": true
+    },
+
+    "ts-node": {
+        "files": true,
+        "ignore": ["node_modules"],
+        "transpileOnly": true,
+
+        "compilerOptions": {
+            "module": "CommonJS"
+        }
+    }
+}

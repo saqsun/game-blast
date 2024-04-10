@@ -1,0 +1,108 @@
+# ignore all files starting with . or ~
+.*
+~*
+!.npmrc
+!.babelrc
+!**/.eslintrc.json
+!**/.prettierrc.json
+!**/.eslintignore
+!**/.prettierignore
+!**/.browserslistrc
+!.github
+!.gitkeep
+!.changeset
+!.husky
+
+# ignore yarn plug'n'play file
+.pnp.*
+
+# Turborepo outputs/logs directory
+.turbo
+
+# ignore node/grunt dependency directories
+**/node_modules/
+
+# ignore system files
+.DS_Store
+
+# ignore composer vendor directory
+/vendor
+
+# ignore components loaded via Bower
+/bower_components
+
+# ignore jekyll build directory
+/_site
+/dist
+/build
+
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ignore private/secret files
+*.der
+*.key
+*.pem
+
+# -------------------------
+# BEGIN Whitelisted Files
+# -------------------------
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# track these files, if they exist
+!.gitignore
+!.eslintrc.js
+!.editorconfig
+!.phpcs.xml.dist
+
+# cached files
+packages/client/webpack/cache
+.parcel-cache
+
+# build files
+*.tsbuildinfo
+lib/
+dist/
+build/
+/assets/
